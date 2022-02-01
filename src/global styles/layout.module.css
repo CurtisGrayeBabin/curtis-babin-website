@@ -1,34 +1,3 @@
-.layoutMain section {
-  @apply font-sans w-4/5 sm:w-5/6 md:w-5/6 lg:w-3/5 mx-auto;
-}
-
-.layout404 section {
-  @apply font-sans;
-}
-
-/* for footer when there isn't enough content on the page to fill it out */
-.stickToBottom {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
-.top {
-  padding-top: 2rem;
-}
-
-.oneLiner {
-  font-size: 4rem;
-}
-
-/* make buttons non-highlightable */
-.hideBlueBox {
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.hideBlueBox a:hover {
-  border-radius: 50%;
-  @apply bg-blue-100;
+.layoutMargins {
+  padding: 1%;
 }
