@@ -19,8 +19,8 @@ module.exports = {
         name: "Curtis Babin | Web Developer",
         short_name: "Curtis Babin",
         start_url: "/",
-        background_color: "#FFFFFF",
-        theme_color: "#FFFFFF",
+        background_color: "#1A1152",
+        theme_color: "#1A1152",
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: "standalone",

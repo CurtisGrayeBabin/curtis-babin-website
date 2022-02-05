@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
-import { layoutMargins } from "../global styles/layout.module.css";
 
 // format of each page (not just Home page)
 const Layout = ({ pageTitle, children }) => {
@@ -24,7 +23,7 @@ const Layout = ({ pageTitle, children }) => {
         />
       </Helmet>
 
-      <main className={layoutMargins}>{children}</main>
+      <main>{children}</main>
 
       <footer></footer>
     </>
