@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: 1.5rem;
-  border-bottom: 0.1rem solid white;
+  border-bottom: 1px solid white;
   padding-bottom: 1%;
   color: white;
   border-color: white;
@@ -32,15 +32,27 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 280px) {
+  .title {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 281px) and (max-width: 376px) {
   .title {
     font-size: 1rem;
   }
 }
 
+@media only screen and (min-width: 376px) and (max-width: 600px) {
+  .title {
+    font-size: 1.25rem;
+  }
+}
+
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .title {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
   }
 }
 
