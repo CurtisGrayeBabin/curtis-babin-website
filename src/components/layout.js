@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
+import Navbar from "./Navbar";
 
 // format of each page (not just Home page)
 const Layout = ({ pageTitle, children }) => {
@@ -22,6 +23,8 @@ const Layout = ({ pageTitle, children }) => {
           href="/manifest.webmanifest"
         />
       </Helmet>
+
+      <Navbar />
 
       <main>{children}</main>
 

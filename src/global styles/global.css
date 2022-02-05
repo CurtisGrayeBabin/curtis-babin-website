@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --blue-color: rgb(59 130 246);
+}
+
 html,
 body {
   background-color: #1a1152;
+  color: white;
 }
 
 @media only screen and (max-width: 600px) {

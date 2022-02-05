@@ -17,5 +17,12 @@
 .linkH1 {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   user-select: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 1rem;
+  }
 }
