@@ -6,6 +6,13 @@
   --blue-color: rgb(59 130 246);
 }
 
+@media (hover: hover) {
+  a:hover {
+    color: var(--blue-color);
+    transition: 0.25s;
+  }
+}
+
 html,
 body {
   background-color: #1a1152;

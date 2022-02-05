@@ -9,10 +9,25 @@
 .contact {
   font-family: "Rubik";
   font-size: 1.2rem;
+  letter-spacing: -0.02 rem;
 }
 
 .border {
   border-bottom: 1px solid white;
+}
+
+.about {
+  font-size: 0.85rem;
+  width: 65%;
+  line-height: 1.65rem;
+}
+
+.about h3 {
+  font-size: 1.2rem;
+}
+
+.about a {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 600px) {
@@ -20,11 +35,16 @@
     width: 100%;
     font-size: 3rem;
     line-height: 3rem;
-    padding: 6% 1%;
+    padding: 6% 0%;
   }
 
   .contact {
-    padding: 0 1%;
+    padding: 0 0%;
+  }
+
+  .about {
+    width: 100%;
+    line-height: 1.75rem;
   }
 }
 
@@ -35,6 +55,10 @@
     line-height: 2.5rem;
     padding: 4% 0%;
   }
+
+  .about {
+    width: 80%;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -43,6 +67,10 @@
     font-size: 2.5rem;
     line-height: 2.5rem;
     padding: 5% 0%;
+  }
+
+  .about {
+    width: 90%;
   }
 }
 

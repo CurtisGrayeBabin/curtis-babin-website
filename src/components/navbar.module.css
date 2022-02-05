@@ -26,11 +26,6 @@
 }
 
 @media (hover: hover) {
-  .linkH1:hover {
-    color: var(--blue-color);
-    transition: 0.25s;
-  }
-
   .sideMenu:hover {
     color: var(--blue-color);
     transition: 0.25s;
