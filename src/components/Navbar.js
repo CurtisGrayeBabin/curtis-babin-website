@@ -1,7 +1,7 @@
 import React from "react";
 import { IconContext } from "react-icons";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { nav, svg1, linkH1, title } from "./navbar.module.css";
+import { nav, svg1, linkH1, title, sideMenu } from "./navbar.module.css";
 import { layoutPadding } from "../global styles/layout.module.css";
 import { Link } from "gatsby";
 
@@ -27,7 +27,7 @@ function Navbar() {
         <h1 className={title}>Curtis Babin | Web Developer</h1>
       </Link>
       <IconContext.Provider
-        value={{ color: "white", title: "Side-menu button" }}
+        value={{ title: "Side-menu button", className: sideMenu }}
       >
         <div>
           <GiHamburgerMenu />

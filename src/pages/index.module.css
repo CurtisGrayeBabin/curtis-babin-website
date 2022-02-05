@@ -1,9 +1,9 @@
 .increase {
-  line-height: 3.5rem;
+  line-height: 4rem;
   font-family: "Rubik";
   font-size: 3.5rem;
   width: 60%;
-  padding: 2% 0;
+  padding: 3% 0;
 }
 
 .contact {
@@ -30,9 +30,10 @@
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .increase {
-    width: 65%;
+    width: 75%;
     font-size: 2.5rem;
     line-height: 2.5rem;
+    padding: 4% 0%;
   }
 }
 
@@ -41,6 +42,7 @@
     width: 85%;
     font-size: 2.5rem;
     line-height: 2.5rem;
+    padding: 5% 0%;
   }
 }
 
@@ -48,6 +50,5 @@
   .increase {
     width: 65%;
     font-size: 3.5rem;
-    line-height: 3.5rem;
   }
 }
