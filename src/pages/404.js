@@ -1,7 +1,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import { layoutPadding } from "../global styles/layout.module.css";
-import { title, home } from "../global styles/404.module.css";
+import { title, home } from "./404.module.css";
 import { Link } from "gatsby";
 
 const NotFoundPage = () => {

@@ -1,0 +1,53 @@
+.increase {
+  line-height: 3.5rem;
+  font-family: "Rubik";
+  font-size: 3.5rem;
+  width: 60%;
+  padding: 2% 0;
+}
+
+.contact {
+  font-family: "Rubik";
+  font-size: 1.2rem;
+}
+
+.border {
+  border-bottom: 1px solid white;
+}
+
+@media only screen and (max-width: 600px) {
+  .increase {
+    width: 100%;
+    font-size: 3rem;
+    line-height: 3rem;
+    padding: 6% 1%;
+  }
+
+  .contact {
+    padding: 0 1%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .increase {
+    width: 65%;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .increase {
+    width: 85%;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .increase {
+    width: 65%;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+}
