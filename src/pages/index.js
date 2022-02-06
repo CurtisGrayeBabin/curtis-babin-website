@@ -1,6 +1,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import { increase, contact, border, about } from "./index.module.css";
+import { increase, contact, border, about, button } from "./index.module.css";
 import { layoutPadding } from "../global styles/layout.module.css";
 
 const IndexPage = () => {
@@ -8,10 +8,12 @@ const IndexPage = () => {
     <Layout pageTitle="Curtis Babin | Web Developer">
       <section className={`${layoutPadding} ${border}`}>
         <h1 className={increase}>
-          Grow your business with a fast, modern, & SEO-focussed website
+          Grow your business with a fast, modern, mobile website + SEO
         </h1>
         <h2 className={contact}>Contact me below for more details</h2>
+        <button className={button}>Contact</button>
       </section>
+
       <section className={`${layoutPadding}`}>
         <div className={about}>
           <h3>About</h3>

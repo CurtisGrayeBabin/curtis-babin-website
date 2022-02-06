@@ -2,14 +2,14 @@ import React from "react";
 import { IconContext } from "react-icons";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { nav, svg1, linkH1, title, sideMenu } from "./navbar.module.css";
-import { layoutPadding } from "../global styles/layout.module.css";
+import { layoutNavbar } from "../global styles/layout.module.css";
 import { Link } from "gatsby";
 import Headroom from "react-headroom";
 
 function Navbar() {
   return (
     <Headroom>
-      <nav className={`${nav} ${layoutPadding}`}>
+      <nav className={`${nav} ${layoutNavbar}`}>
         <Link to="/" className={linkH1}>
           <svg
             xmlns="http://www.w3.org/2000/svg"

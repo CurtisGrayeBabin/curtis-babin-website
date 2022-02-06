@@ -3,17 +3,33 @@
   font-family: "Rubik";
   font-size: 3.5rem;
   width: 60%;
-  padding: 3% 0;
 }
 
 .contact {
   font-family: "Rubik";
   font-size: 1.2rem;
   letter-spacing: -0.02 rem;
+  margin: 3.5% 0;
 }
 
 .border {
   border-bottom: 1px solid white;
+}
+
+.button {
+  font-family: "Rubik";
+  letter-spacing: -0.05rem;
+  font-size: 1.5rem;
+  color: var(--bg-color);
+  @apply bg-white font-bold py-2 px-4 rounded-full;
+}
+
+@media (hover: hover) {
+  .button:hover {
+    color: white;
+    background-color: var(--blue-color);
+    transition: 0.25s;
+  }
 }
 
 .about {
@@ -33,13 +49,8 @@
 @media only screen and (max-width: 600px) {
   .increase {
     width: 100%;
-    font-size: 3rem;
-    line-height: 3rem;
-    padding: 6% 0%;
-  }
-
-  .contact {
-    padding: 0 0%;
+    font-size: 4rem;
+    line-height: 4rem;
   }
 
   .about {
@@ -53,7 +64,6 @@
     width: 75%;
     font-size: 2.5rem;
     line-height: 2.5rem;
-    padding: 4% 0%;
   }
 
   .about {
@@ -66,7 +76,6 @@
     width: 85%;
     font-size: 2.5rem;
     line-height: 2.5rem;
-    padding: 5% 0%;
   }
 
   .about {
@@ -76,7 +85,7 @@
 
 @media only screen and (min-width: 1025px) {
   .increase {
-    width: 65%;
+    width: 70%;
     font-size: 3.5rem;
   }
 }
