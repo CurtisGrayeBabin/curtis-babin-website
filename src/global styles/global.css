@@ -4,6 +4,7 @@
 
 :root {
   --blue-color: rgb(59 130 246);
+  --bg-color: #1a1152;
 }
 
 @media (hover: hover) {
@@ -15,7 +16,7 @@
 
 html,
 body {
-  background-color: #1a1152;
+  background-color: var(--bg-color);
   color: white;
 }
 
