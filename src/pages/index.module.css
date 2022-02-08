@@ -5,11 +5,29 @@
   width: 60%;
 }
 
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(40%);
+    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+  }
+  50% {
+    transform: translateY(-65%);
+    animation-timing-function: cubic-bezier(0, 0, 1, 1);
+  }
+}
+
+.downArrow {
+  border-radius: 50%;
+  transition: all 0.25s ease;
+  @apply h-10 animate-bounce;
+}
+
 .contact {
   font-family: "Rubik";
   font-size: 1.2rem;
   letter-spacing: -0.02 rem;
-  margin: 3.5% 0;
+  padding: 3.5% 0;
 }
 
 .border {

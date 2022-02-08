@@ -1,6 +1,13 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import { increase, contact, border, about, button } from "./index.module.css";
+import {
+  increase,
+  contact,
+  border,
+  about,
+  button,
+  downArrow,
+} from "./index.module.css";
 import { layoutPadding } from "../global styles/layout.module.css";
 
 const IndexPage = () => {
@@ -10,7 +17,24 @@ const IndexPage = () => {
         <h1 className={increase}>
           Grow your business with a fast, modern, mobile website + SEO
         </h1>
+
         <h2 className={contact}>Contact me below for more details</h2>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className={downArrow}
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
+
         <button className={button}>Contact</button>
       </section>
 
