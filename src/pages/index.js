@@ -15,7 +15,7 @@ const IndexPage = () => {
     <Layout pageTitle="Curtis Babin | Web Developer">
       <section className={`${layoutPadding} ${border}`}>
         <h1 className={increase}>
-          Grow your business with a fast, modern, mobile website + SEO
+          Grow your business with a fast, modern, mobile website
         </h1>
 
         <h2 className={contact}>Contact me below for more details</h2>
