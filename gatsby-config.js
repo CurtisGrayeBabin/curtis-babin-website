@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.curtisbabin.com",
-    title: "Curtis Babin | Node.js Developer",
+    title: "Curtis Babin | Web Developer",
   },
   plugins: [
     "gatsby-plugin-image",
@@ -16,11 +16,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Curtis Babin | Node.js Developer",
+        name: "Curtis Babin | Web Developer",
         short_name: "Curtis Babin",
         start_url: "/",
-        background_color: "#FFFFFF",
-        theme_color: "#FFFFFF",
+        background_color: "#1A1152",
+        theme_color: "#1A1152",
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: "standalone",

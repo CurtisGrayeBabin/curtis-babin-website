@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --blue-color: rgb(59 130 246);
+  --bg-color: #1a1152;
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: var(--blue-color);
+    transition: 0.25s;
+  }
+}
+
+html,
+body {
+  background-color: var(--bg-color);
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   html,
   body {

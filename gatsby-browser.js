@@ -1,2 +1,3 @@
-import '@fontsource/roboto';
-import './src/global styles/global.css';
+import "@fontsource/roboto";
+import "@fontsource/rubik";
+import "./src/global styles/global.css";

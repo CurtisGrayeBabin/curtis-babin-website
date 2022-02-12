@@ -1,0 +1,10 @@
+.title {
+  font-size: 5rem;
+}
+
+.home {
+  font-size: 4rem;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  -webkit-appearance-text-decoration-style: underline;
+}

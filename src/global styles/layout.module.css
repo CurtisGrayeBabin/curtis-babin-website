@@ -1,34 +1,67 @@
-.layoutMain section {
-  @apply font-sans w-4/5 sm:w-5/6 md:w-5/6 lg:w-3/5 mx-auto;
+.layoutNavbar {
+  padding: 1% 2%;
 }
 
-.layout404 section {
-  @apply font-sans;
+.layoutFooter {
+  margin: 1% 2%;
 }
 
-/* for footer when there isn't enough content on the page to fill it out */
-.stickToBottom {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
+.layoutPadding {
+  padding: 3% 2%;
 }
 
-.top {
-  padding-top: 2rem;
+@media only screen and (min-width: 280px) and (max-width: 376px) {
+  .layoutPadding {
+    padding: 8% 3%;
+  }
+
+  .layoutNavbar {
+    padding: 1% 3%;
+  }
+
+  .layoutFooter {
+    margin: 1% 3%;
+  }
 }
 
-.oneLiner {
-  font-size: 4rem;
+@media only screen and (min-width: 376px) and (max-width: 600px) {
+  .layoutPadding {
+    padding: 7% 3%;
+  }
+
+  .layoutNavbar {
+    padding: 1% 3%;
+  }
+
+  .layoutFooter {
+    margin: 1% 3%;
+  }
 }
 
-/* make buttons non-highlightable */
-.hideBlueBox {
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .layoutPadding {
+    padding: 5% 3%;
+  }
+
+  .layoutNavbar {
+    padding: 1% 3%;
+  }
+
+  .layoutFooter {
+    margin: 1% 3%;
+  }
 }
 
-.hideBlueBox a:hover {
-  border-radius: 50%;
-  @apply bg-blue-100;
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .layoutPadding {
+    padding: 4% 3%;
+  }
+
+  .layoutNavbar {
+    padding: 1% 3%;
+  }
+
+  .layoutFooter {
+    margin: 1% 3%;
+  }
 }
