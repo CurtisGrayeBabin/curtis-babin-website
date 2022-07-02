@@ -29,10 +29,11 @@ const Layout = ({ pageTitle, children }) => {
 
       <main>{children}</main>
 
-      <footer className="footer layoutFooter">
+      <footer className="layoutFooter footer">
         <a
           href="https://www.termsfeed.com/live/3fbd4032-b635-4816-a90d-ed310ec9d468"
           target="_"
+          style={{"transition": ".25s ease-in-out"}}
         >
           Privacy Policy | {new Date().getFullYear()}
         </a>

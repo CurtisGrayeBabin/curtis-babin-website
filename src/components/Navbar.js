@@ -9,7 +9,7 @@ import Headroom from "react-headroom";
 function Navbar() {
   return (
     <Headroom>
-      <nav className="nav layoutNavbar">
+      <nav className="nav layoutNavbar" id="navbar">
         <Link to="/" className="linkH1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
