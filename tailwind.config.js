@@ -16,7 +16,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["Roboto", "ui-sans-serif", "system-ui"],
+        sans: ["Roboto Mono", "ui-sans-serif", "system-ui"],
       },
     },
   },

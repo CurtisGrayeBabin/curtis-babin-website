@@ -1,6 +1,6 @@
 .increase {
   line-height: 4rem;
-  font-family: "Rubik";
+  font-family: "Roboto Mono";
   font-size: 3.5rem;
   width: 60%;
 }
@@ -24,7 +24,7 @@
 }
 
 .contact {
-  font-family: "Rubik";
+  font-family: "Roboto Mono";
   font-size: 1.2rem;
   letter-spacing: -0.02 rem;
   padding: 3.5% 0;

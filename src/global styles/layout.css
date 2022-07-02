@@ -1,3 +1,15 @@
+.layoutNavbar {
+  padding: 1% 1%;
+}
+
+.layoutFooter {
+  margin: 1% 2%;
+}
+
+.layoutPadding {
+  padding: 3% 2%;
+}
+
 .footer {
   font-size: 0.65rem;
   position: fixed;
@@ -5,6 +17,4 @@
   right: 0;
   text-align: right;
   z-index: 2;
-  background-color: var(--bg-color);
-  border-radius: 2rem;
 }

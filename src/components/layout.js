@@ -1,8 +1,7 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
 import Navbar from "./Navbar";
-import { footer } from "./footer.module.css";
-import { layoutFooter } from "../global styles/layout.module.css";
+import "../global styles/layout.css";
 
 // format of each page (not just Home page)
 const Layout = ({ pageTitle, children }) => {
@@ -30,7 +29,7 @@ const Layout = ({ pageTitle, children }) => {
 
       <main>{children}</main>
 
-      <footer className={`${footer} ${layoutFooter}`}>
+      <footer className="footer layoutFooter">
         <a
           href="https://www.termsfeed.com/live/3fbd4032-b635-4816-a90d-ed310ec9d468"
           target="_"
