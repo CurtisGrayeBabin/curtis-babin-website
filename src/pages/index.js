@@ -1,5 +1,5 @@
 import * as React from "react";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 
 const IndexPage = () => {
@@ -10,7 +10,7 @@ const IndexPage = () => {
     
     {/* profile pic container */}
     <div style={{"display": "flex", "justifyContent": "center", "alignItems": "center", "height": "calc(75vh)"}}>
-        <StaticImage src="../images/github profile.png" alt="My picture" width={300} height={300} imgStyle={{ borderRadius: '100%', "flexGrow": 1 }} />
+        <StaticImage src="../images/github profile.png" alt="My picture" width={300} height={300} imgStyle={{ borderRadius: '100%' }} />
     </div>
 
     </Layout>

@@ -1,8 +1,8 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import "../global styles/layout.css";
-import "./404.css";
 import { Link } from "gatsby";
+import "../styles/layout.css";
+import "../styles/404.css";
 
 const NotFoundPage = () => {
   return (

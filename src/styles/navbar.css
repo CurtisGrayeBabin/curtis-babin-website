@@ -2,15 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.5rem;
-  border-bottom: 1px solid white;
+  font-size: 1rem;
+  border-bottom: 1px solid var(--text-color);
   color: var(--text-color);
-  border-color: var(--text-color);
 }
 
 .svg1 {
   margin: auto 0;
-  @apply w-7 h-7 text-gray-50 bg-blue-500 rounded-full;
+  @apply w-5 h-5 text-gray-50 bg-blue-500 rounded-full;
 }
 
 .linkH1 {

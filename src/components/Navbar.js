@@ -1,15 +1,15 @@
 import React from "react";
 import { IconContext } from "react-icons";
 import { GiHamburgerMenu } from "react-icons/gi";
-import "./navbar.css";
-import "../global styles/layout.css";
 import { Link } from "gatsby";
 import Headroom from "react-headroom";
+import "../styles/navbar.css";
+import "../styles/layout.css";
 
 function Navbar() {
   return (
     <Headroom>
-      <nav className="nav layoutNavbar" id="navbar">
+      <nav className="nav layoutNavbar">
         <Link to="/" className="linkH1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
