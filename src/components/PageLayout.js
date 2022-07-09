@@ -27,7 +27,9 @@ const Layout = ({ pageTitle, contentDescription, canonicalLink, children }) => {
 
       <Navbar />
 
-      <main className="content">{children}</main>
+      <main className="content">
+        {children}
+      </main>
 
       <footer className="layoutFooter footer">
         <a

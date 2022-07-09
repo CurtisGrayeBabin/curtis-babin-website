@@ -1,8 +1,7 @@
 import * as React from "react";
-import Layout from "../components/Layout";
+import PageLayout from "../components/PageLayout";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
-import "../styles/index.css";
 
 const IndexPage = () => {
 
@@ -11,7 +10,7 @@ const IndexPage = () => {
   const canonicalLink = "https://www.curtisbabin.com";
 
   return (
-    <Layout pageTitle={pageTitle} contentDescription={contentDescription} canonicalLink={canonicalLink}>
+    <PageLayout pageTitle={pageTitle} contentDescription={contentDescription} canonicalLink={canonicalLink}>
     
     {/* Basic description that doesn't need to display */}
     <p style={{'display': 'none'}}>
@@ -27,6 +26,7 @@ const IndexPage = () => {
 
       <div>
         <table>
+          <tbody>
           <tr>
             <td align="center">
               <a href="https://github.com/CurtisGrayeBabin" target="_" className="link">GitHub</a>
@@ -42,6 +42,7 @@ const IndexPage = () => {
               <a href="https://www.linkedin.com/in/curtisbabin/" target="_" className="link">LinkedIn</a>
             </td>
           </tr>
+          </tbody>
         </table>
       </div>
 
@@ -53,7 +54,7 @@ const IndexPage = () => {
 
     
 
-    </Layout>
+    </PageLayout>
   );
 };
 

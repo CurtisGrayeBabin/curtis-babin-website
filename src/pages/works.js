@@ -1,5 +1,5 @@
 import * as React from "react";
-import Layout from "../components/Layout";
+import PageLayout from "../components/PageLayout";
 import { StaticImage } from "gatsby-plugin-image";
 import "../styles/global.css";
 import "../styles/works.css";
@@ -12,7 +12,7 @@ const IndexPage = () => {
   const canonicalLink = "https://www.curtisbabin.com/works";
 
   return (
-    <Layout pageTitle={pageTitle} contentDescription={contentDescription} canonicalLink={canonicalLink}>
+    <PageLayout pageTitle={pageTitle} contentDescription={contentDescription} canonicalLink={canonicalLink}>
     
     <h1 className="heading">Works</h1>
 
@@ -38,7 +38,7 @@ const IndexPage = () => {
 
 
 
-    </Layout>
+    </PageLayout>
   );
 };
 
