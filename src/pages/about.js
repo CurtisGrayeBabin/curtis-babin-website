@@ -18,7 +18,7 @@ const IndexPage = () => {
     I am a programmer with over four years of professional experience. 
     I enjoy creating websites and helping others realize their goals. 
     I graduated from UC Irvine with my B.S. in Computer Science and have completed a couple of coding boot camps over the years. 
-    Feel free to email me about inquiries: curtis [at] curtisbabin [dot] com
+    Feel free to email me regarding inquiries: curtis [at] curtisbabin [dot] com
     </p>
 
     <div style={{"display": "flex", "justifyContent": "space-evenly", "alignItems": "center", "flexWrap": "wrap", "paddingTop": "1rem"}}>

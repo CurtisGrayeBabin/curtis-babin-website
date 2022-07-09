@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --blue-color: rgb(59 130 246);
   --bg-color: #E5E5E5;
