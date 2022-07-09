@@ -26,6 +26,14 @@ body {
   scroll-behavior: smooth;
 }
 
+.heading {
+  text-decoration: underline;
+}
+
+.contentText {
+  font-size: 1rem;
+}
+
 @media only screen and (max-width: 300px) {
   html,
   body {
