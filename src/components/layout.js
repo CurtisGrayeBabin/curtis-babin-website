@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import "../styles/layout.css";
 
 // format of each page (not just Home page)
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ pageTitle, contentDescription, canonicalLink, children }) => {
   return (
     <>
       <title>{pageTitle}</title>
@@ -14,9 +14,9 @@ const Layout = ({ pageTitle, children }) => {
         <title>{pageTitle}</title>
         <meta
           name="description"
-          content="The personal website of Curtis Babin: a web developer."
+          content={contentDescription}
         />
-        <link rel="canonical" href="https://www.curtisbabin.com" />
+        <link rel="canonical" href={canonicalLink} />
         <meta name="author" content="Curtis Babin"></meta>
         <link
           rel="manifest"
@@ -27,7 +27,7 @@ const Layout = ({ pageTitle, children }) => {
 
       <Navbar />
 
-      <main>{children}</main>
+      <main className="content">{children}</main>
 
       <footer className="layoutFooter footer">
         <a
