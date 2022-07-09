@@ -1,6 +1,7 @@
 import * as React from "react";
 import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 import "../styles/index.css";
 
 const IndexPage = () => {
@@ -9,13 +10,16 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Curtis Babin | Web Developer">
     
-    
+    {/* Basic description that doesn't need to display */}
+    <p style={{'display': 'none'}}>
+    I create single page applications & fast, SEO-friendly websites. I enjoy coding and can help you with your ideas. Contact me for more!
+    </p>
 
     {/* profile pic container */}
     <div style={{"display": "flex", "justifyContent": "center", "alignItems": "center", "height": "85vh"}}>
       
       <div>
-        <a href="/" className="link">About</a>&nbsp;
+        <Link to="/about" className="link">About</Link>&nbsp;
       </div>
 
       <div>
@@ -27,7 +31,7 @@ const IndexPage = () => {
           </tr>
           <tr>
             <td>
-              <StaticImage src="../images/github profile.png" alt="My picture" width={300} height={300} imgStyle={{ borderRadius: '100%' }} />
+              <StaticImage src="../images/MeSmiling.JPG" alt="My picture" width={300} height={300} imgStyle={{ borderRadius: '100%' }} />
             </td>
           </tr>
           <tr>
@@ -39,7 +43,7 @@ const IndexPage = () => {
       </div>
 
       <div>
-      &nbsp;<a href="/" className="link">Works</a>
+      &nbsp;<Link to="/works" className="link">Works</Link>
       </div>
 
     </div>

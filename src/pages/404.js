@@ -7,10 +7,10 @@ import "../styles/404.css";
 const NotFoundPage = () => {
   return (
     <Layout pageTitle="404">
-      <h1 className="layoutPadding title">404 Error</h1>
-      <h2 className="layoutPadding">This page doesn't exist!</h2>
-      <Link to="/" className="layoutPadding home">
-        Home
+      <h1>Whoo-hoo 404 Error! Yay!</h1>
+      <h2>Yeah, this page doesn't exist. Feel free to go home (which does exist):</h2>
+      <Link to="/">
+        Go Home
       </Link>
     </Layout>
   );
