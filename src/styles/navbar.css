@@ -5,6 +5,8 @@
   font-size: 1rem;
   border-bottom: 1px solid var(--text-color);
   color: var(--text-color);
+  background-image: url("../images/webb.png");
+  background-size: 9rem;
 }
 
 .svg1 {
