@@ -16,8 +16,9 @@ const IndexPage = () => {
 
     <p className="contentText">
     I am a programmer with over four years of professional experience. 
-    I enjoy creating websites and helping others realize their goals. 
-    I graduated from UC Irvine with my B.S. in Computer Science and have completed a couple of coding bootcamps over the years. 
+    I enjoy creating websites and helping others realize their goals with code! 
+    I graduated from the University of California, Irvine, and earned my Bachelor of Science degree in Computer Science. 
+    I have also completed two bootcamps concerning website development with a specialization in Node.js.
     Feel free to email me regarding inquiries: curtis [at] curtisbabin [dot] com
     </p>
 

@@ -2,6 +2,7 @@ import * as React from "react";
 import PageLayout from "../components/PageLayout";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
+import "../styles/global.css";
 
 const IndexPage = () => {
 
@@ -18,7 +19,7 @@ const IndexPage = () => {
     </p>
 
     {/* profile pic container */}
-    <div style={{"display": "flex", "justifyContent": "center", "alignItems": "center", "height": "85vh"}}>
+    <div className="homepageContent">
       
       <div style={{ "paddingRight" : "1rem" }}>
         <Link to="/about" className="link">About</Link>

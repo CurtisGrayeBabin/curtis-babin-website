@@ -36,16 +36,35 @@ body {
 
 .heading {
   text-decoration: underline;
+  font-size: 3rem;
 }
 
 .contentText {
   font-size: 1rem;
 }
 
+.homepageContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+
+// landscape requires the top link around the image be clickable beneath the navigation bar
+
+
+
 @media only screen and (max-width: 300px) {
   html,
   body {
     font-size: 0.75rem;
+  }
+
+  @media (max-height: 450px) {
+    .homepageContent {
+      height: 150vh;
+    }
   }
 }
 
@@ -54,12 +73,24 @@ body {
   body {
     font-size: 1rem;
   }
+
+  @media (max-height: 450px) {
+    .homepageContent {
+      height: 150vh;
+    }
+  }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   html,
   body {
     font-size: 1.25rem;
+  }
+
+  @media (max-height: 450px) {
+    .homepageContent {
+      height: 150vh;
+    }
   }
 }
 
@@ -68,6 +99,12 @@ body {
   body {
     font-size: 1.5rem;
   }
+
+  @media (max-height: 450px) {
+    .homepageContent {
+      height: 150vh;
+    }
+  }
 }
 
 @media only screen and (min-width: 1025px) {
@@ -75,4 +112,11 @@ body {
   body {
     font-size: 1.75rem;
   }
+
+  @media (max-height: 450px) {
+    .homepageContent {
+      height: 150vh;
+    }
+  }
 }
+
