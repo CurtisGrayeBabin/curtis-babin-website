@@ -51,9 +51,7 @@ body {
 }
 
 
-// landscape requires the top link around the image be clickable beneath the navigation bar
-
-
+/* landscape requires the top link around the image be clickable beneath the navigation bar */
 
 @media only screen and (max-width: 300px) {
   html,
