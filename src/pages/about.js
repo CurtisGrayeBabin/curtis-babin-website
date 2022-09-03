@@ -23,7 +23,7 @@ const IndexPage = () => {
     </p>
 
     <div style={{"display": "flex", "justifyContent": "space-evenly", "alignItems": "center", "flexWrap": "wrap", "paddingTop": "1rem"}}>
-        <StaticImage src="../images/codecademycert.jpg" alt="My CodeCademy Web Developer certification image" width={400} height={300} />
+        <StaticImage src="../images/codecademycert.jpg" alt="My CodeCademy Web Developer certification image" width={400} height={300} style={{border: "1px solid black"}} />
         <StaticImage src="../images/udacity.jpg" alt="My Udacity Nanodegree image" width={400} height={300} style={{border: "1px solid black"}} />
     </div>
 
