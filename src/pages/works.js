@@ -17,10 +17,27 @@ const IndexPage = () => {
     <h1 className="heading">Works</h1>
 
     <div className="projectContainer">
+        <h2><a href="http://steviesdetails.com" target="_" className="projectTitle">Stevie's Details&nbsp;<BiLinkExternal /></a></h2>
+        
+        <div className="projectImage">
+            <StaticImage src="../images/steviesDetails.png" alt="Screenshot of the Stevie's Details homepage" height={400} />
+        </div>
+
+        <ul className="projectContents">
+            <li>
+            Gatsby (React) website built on HTML, CSS, JSX
+            </li>
+            <li>
+            Responsive design with custom styling
+            </li>
+        </ul>
+    </div>
+
+    <div className="projectContainer">
         <h2><a href="http://store.curtisbabin.com" target="_" className="projectTitle">My Store&nbsp;<BiLinkExternal /></a></h2>
         
         <div className="projectImage">
-            <StaticImage src="../images/store.png" alt="My Udacity Nanodegree image" width={500} height={400} />
+            <StaticImage src="../images/store.png" alt="Screenshot of my store application" width={500} height={400} />
         </div>
 
         <ul className="projectContents">

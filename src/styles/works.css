@@ -7,6 +7,7 @@
 
 .projectContainer {
     border: 1px solid var(--text-color);
+    margin-bottom: 1rem;
 }
 
 .projectTitle {
