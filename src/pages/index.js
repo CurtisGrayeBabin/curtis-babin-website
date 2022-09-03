@@ -11,10 +11,20 @@ const IndexPage = () => {
   const contentDescription = "The homepage of Curtis Babin's website.";
   const canonicalLink = "https://www.curtisbabin.com";
 
+  // using local storage for saving incremental counts
+  const counterStorageString = "curtisbabincountervalue";
   var [count, updateCount] = useState(0);
+
+  // if there's a previous counter value then restore it
+  var previousCount = localStorage.getItem(counterStorageString);
+
+  if (previousCount){
+    count = parseInt(previousCount);
+  }
 
   const buttonClicked = event => {
     updateCount(count+1);
+    localStorage.setItem(counterStorageString, count+1);
   }
 
   return (
@@ -22,7 +32,7 @@ const IndexPage = () => {
     
     {/* Basic description that doesn't need to display */}
     <p style={{'display': 'none'}}>
-    I create single page applications & fast, SEO-friendly websites. I enjoy coding and can help you with your ideas. Contact me for more!
+      I create single page applications & fast, SEO-friendly websites. I enjoy coding and can help you with your ideas. Contact me for more!
     </p>
 
   
