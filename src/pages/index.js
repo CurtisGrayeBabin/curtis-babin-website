@@ -16,7 +16,7 @@ const IndexPage = () => {
   var [count, updateCount] = useState(0);
 
   // if there's a previous counter value then restore it
-  var previousCount = localStorage.getItem(counterStorageString);
+  let previousCount = typeof window !== 'undefined' && window.localStorage.getItem(counterStorageString);
 
   if (previousCount){
     count = parseInt(previousCount);
@@ -24,7 +24,7 @@ const IndexPage = () => {
 
   const buttonClicked = event => {
     updateCount(count+1);
-    localStorage.setItem(counterStorageString, count+1);
+    typeof window !== 'undefined' && window.localStorage.setItem(counterStorageString, count+1);
   }
 
   return (
