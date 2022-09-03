@@ -50,6 +50,19 @@ body {
   height: 85vh;
 }
 
+.click-me-div {
+  width: 100%;
+  position: fixed;
+}
+
+.click-me-div button {
+  font-size: 1rem;
+}
+
+.click-me-div span {
+  font-size: 1rem;
+  margin: 1rem;
+}
 
 /* landscape requires the top link around the image be clickable beneath the navigation bar */
 

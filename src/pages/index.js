@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useState } from "react";
 import PageLayout from "../components/PageLayout";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
@@ -10,6 +11,12 @@ const IndexPage = () => {
   const contentDescription = "The homepage of Curtis Babin's website.";
   const canonicalLink = "https://www.curtisbabin.com";
 
+  var [count, updateCount] = useState(0);
+
+  const buttonClicked = event => {
+    updateCount(count+1);
+  }
+
   return (
     <PageLayout pageTitle={pageTitle} contentDescription={contentDescription} canonicalLink={canonicalLink}>
     
@@ -17,6 +24,16 @@ const IndexPage = () => {
     <p style={{'display': 'none'}}>
     I create single page applications & fast, SEO-friendly websites. I enjoy coding and can help you with your ideas. Contact me for more!
     </p>
+
+  
+    <div className="click-me-div">
+      <button onClick={buttonClicked} className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+        Click me
+      </button>
+
+      <span>{count ? count : ""}</span>
+    </div>
+    
 
     {/* profile pic container */}
     <div className="homepageContent">
@@ -52,6 +69,7 @@ const IndexPage = () => {
       </div>
 
     </div>
+
 
     
 
