@@ -37,7 +37,7 @@ const IndexPage = () => {
 
   
     <div className="click-me-div">
-      <button onClick={buttonClicked} className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+      <button id="click-me-button" onClick={buttonClicked} className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
         Click me
       </button>
 
@@ -46,7 +46,7 @@ const IndexPage = () => {
     
 
     {/* profile pic container */}
-    <div className="homepageContent">
+    <div className="homepage-content">
       
       <div style={{ "paddingRight" : "1rem" }}>
         <Link to="/about" className="link">About</Link>
