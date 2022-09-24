@@ -51,7 +51,7 @@ body {
 
 .click-me-div {
   z-index: 1;
-  width: 100%;
+  width: fit-content;
   position: relative;
   margin-top: 2%;
 }
@@ -78,6 +78,20 @@ body {
   right: 0;
   bottom: 0;
 }
+
+
+.footer {
+  margin: 0% 2.5% 0.5% 0%;
+  width: fit-content;
+  font-size: .6rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  background-image: url("../images/webb.png");
+    background-size: 9rem;
+}
+
 
 /* landscape requires the top link around the image be clickable beneath the navigation bar */
 

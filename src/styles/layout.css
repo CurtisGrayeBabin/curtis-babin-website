@@ -2,25 +2,10 @@
   padding: 1% 2% 1% 2%;
 }
 
-.layout-footer {
-  margin: 1% 2%;
-}
-
 .layout-padding {
   padding: 3% 2%;
 }
 
 .content {
   padding: 0 2% 2% 2%;
-}
-
-.footer {
-  padding: .1rem;
-  font-size: .6rem;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  text-align: right;
-  background-image: url("../images/webb.png");
-    background-size: 9rem;
 }

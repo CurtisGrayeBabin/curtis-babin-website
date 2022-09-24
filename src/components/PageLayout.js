@@ -31,7 +31,7 @@ const Layout = ({ pageTitle, contentDescription, canonicalLink, children }) => {
         {children}
       </main>
 
-      <footer className="layout-footer footer">
+      <footer className="footer">
         <a
           href="https://www.termsfeed.com/live/3fbd4032-b635-4816-a90d-ed310ec9d468"
           target="_"

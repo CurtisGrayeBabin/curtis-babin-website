@@ -1,8 +1,13 @@
 .side-menu-container {
     position: fixed;
+    transform: translateY(-1.1px);
+
     right: 0;
     background-image: url("../images/webb.png");
     background-size: 9rem;
+
+    border-left: 1px solid var(--text-color);
+    border-bottom: 1px solid var(--text-color);
 }
 
 .side-menu-link {
