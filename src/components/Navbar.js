@@ -33,7 +33,7 @@ function Navbar() {
             />
           </svg>
           &nbsp;
-          <h1>Curtis Babin | Web Developer</h1>
+          <h1>Curtis Babin <span style={{"display":"inline-block"}}>| Web Developer</span></h1>
         </Link>
 
 

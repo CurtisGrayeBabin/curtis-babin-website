@@ -62,7 +62,7 @@ const IndexPage = () => {
           </tr>
           <tr>
             <td>
-              <StaticImage src="../images/MeSmiling.JPG" alt="My picture" width={300} height={300} imgStyle={{ borderRadius: '100%' }} />
+              <StaticImage src="../images/MeSmiling.JPG" alt="My picture" width={400} height={400} imgStyle={{ borderRadius: '100%' }} />
             </td>
           </tr>
           <tr>
