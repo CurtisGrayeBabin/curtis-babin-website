@@ -43,20 +43,17 @@ body {
   font-size: 1rem;
 }
 
-.homepage-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 85vh;
-}
+/* click me styles */
 
 #click-me-button {
   transition: 0.25s ease-in-out;
 }
 
 .click-me-div {
+  z-index: 1;
   width: 100%;
-  position: fixed;
+  position: relative;
+  margin-top: 2%;
 }
 
 .click-me-div button {
@@ -68,6 +65,22 @@ body {
   margin: 1rem;
 }
 
+/* center image and links on homepage content */
+
+.homepage-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+
 /* landscape requires the top link around the image be clickable beneath the navigation bar */
 
 @media only screen and (max-width: 300px) {
@@ -77,9 +90,7 @@ body {
   }
 
   @media (max-height: 450px) {
-    .homepage-content {
-      height: 150vh;
-    }
+
   }
 }
 
@@ -90,9 +101,7 @@ body {
   }
 
   @media (max-height: 450px) {
-    .homepage-content {
-      height: 150vh;
-    }
+
   }
 }
 
@@ -103,9 +112,7 @@ body {
   }
 
   @media (max-height: 450px) {
-    .homepage-content {
-      height: 150vh;
-    }
+
   }
 }
 
@@ -116,9 +123,7 @@ body {
   }
 
   @media (max-height: 450px) {
-    .homepage-content {
-      height: 150vh;
-    }
+
   }
 }
 
@@ -129,9 +134,7 @@ body {
   }
 
   @media (max-height: 450px) {
-    .homepage-content {
-      height: 150vh;
-    }
+
   }
 }
 

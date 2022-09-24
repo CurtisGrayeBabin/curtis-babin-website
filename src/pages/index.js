@@ -46,40 +46,41 @@ const IndexPage = () => {
     
 
     {/* profile pic container */}
-    <div className="homepage-content">
-      
-      <div style={{ "paddingRight" : "1rem" }}>
-        <Link to="/about" className="link">About</Link>
-      </div>
+    <div className="homepage-content-vertical-center-wrapper">
+      <div className="homepage-content">
+        
+        <div style={{ "paddingRight" : "1rem" }}>
+          <Link to="/about" className="link">About</Link>
+        </div>
 
-      <div>
-        <table>
-          <tbody>
-          <tr>
-            <td align="center">
-              <a href="https://github.com/CurtisGrayeBabin" target="_" className="link">GitHub</a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <StaticImage src="../images/MeSmiling.JPG" alt="My picture" width={300} height={300} imgStyle={{ borderRadius: '100%' }} />
-            </td>
-          </tr>
-          <tr>
-            <td align="center">
-              <a href="https://www.linkedin.com/in/curtisbabin/" target="_" className="link">LinkedIn</a>
-            </td>
-          </tr>
-          </tbody>
-        </table>
-      </div>
+        <div>
+          <table>
+            <tbody>
+            <tr>
+              <td align="center">
+                <a href="https://github.com/CurtisGrayeBabin" target="_" className="link">GitHub</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <StaticImage src="../images/MeSmiling.JPG" alt="My picture" width={300} height={300} imgStyle={{ borderRadius: '100%' }} />
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <a href="https://www.linkedin.com/in/curtisbabin/" target="_" className="link">LinkedIn</a>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
 
-      <div style={{ "paddingLeft" : "1rem" }}>
-        <Link to="/works" className="link">Works</Link>
-      </div>
+        <div style={{ "paddingLeft" : "1rem" }}>
+          <Link to="/works" className="link">Works</Link>
+        </div>
 
+      </div>
     </div>
-
 
     
 
