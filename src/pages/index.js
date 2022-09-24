@@ -49,7 +49,7 @@ const IndexPage = () => {
     <div className="homepage-content">
       
       <div style={{ "paddingRight" : "1rem" }}>
-        <Link to="/about" className="link">About</Link>
+        <Link to="/About" className="link">About</Link>
       </div>
 
       <div>
@@ -75,7 +75,7 @@ const IndexPage = () => {
       </div>
 
       <div style={{ "paddingLeft" : "1rem" }}>
-        <Link to="/works" className="link">Works</Link>
+        <Link to="/Works" className="link">Works</Link>
       </div>
 
     </div>
