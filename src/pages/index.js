@@ -62,7 +62,7 @@ const IndexPage = () => {
           </tr>
           <tr>
             <td align="center" style={{"width":"fit-content"}}>
-              <StaticImage src="../images/MeSmiling.JPG" alt="My picture" width={350} height={350} className="homepage-image-wrapper" />
+              <StaticImage src="../images/MeSmiling.JPG" alt="My picture" width={350} height={350} className="homepage-image-wrapper" imgStyle={{"borderRadius":"100%"}} />
             </td>
           </tr>
           <tr>
