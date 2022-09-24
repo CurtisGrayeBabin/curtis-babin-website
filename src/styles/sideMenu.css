@@ -1,11 +1,11 @@
-.sideMenuContainer {
+.side-menu-container {
     position: fixed;
     right: 0;
     background-image: url("../images/webb.png");
     background-size: 9rem;
 }
 
-.sideMenuLink {
+.side-menu-link {
     display: flex;
     align-items: center;
     font-size: 1rem;

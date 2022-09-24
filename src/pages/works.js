@@ -16,14 +16,14 @@ const IndexPage = () => {
     
     <h1 className="heading">Works</h1>
 
-    <div className="projectContainer">
-        <h2><a href="http://steviesdetails.com" target="_" className="projectTitle">Stevie's Details&nbsp;<BiLinkExternal /></a></h2>
+    <div className="project-container">
+        <h2><a href="http://steviesdetails.com" target="_" className="project-title">Stevie's Details&nbsp;<BiLinkExternal /></a></h2>
         
-        <div className="projectImage">
+        <div className="project-image">
             <StaticImage src="../images/steviesDetails.png" alt="Screenshot of the Stevie's Details homepage" height={400} />
         </div>
 
-        <ul className="projectContents">
+        <ul className="project-contents">
             <li>
             Orange County business's website built on Gatsby (React), HTML, CSS, JSX
             </li>
@@ -33,14 +33,14 @@ const IndexPage = () => {
         </ul>
     </div>
 
-    <div className="projectContainer">
-        <h2><a href="http://store.curtisbabin.com" target="_" className="projectTitle">My Store&nbsp;<BiLinkExternal /></a></h2>
+    <div className="project-container">
+        <h2><a href="http://store.curtisbabin.com" target="_" className="project-title">My Store&nbsp;<BiLinkExternal /></a></h2>
         
-        <div className="projectImage">
+        <div className="project-image">
             <StaticImage src="../images/store.png" alt="Screenshot of my store application" width={500} height={400} />
         </div>
 
-        <ul className="projectContents">
+        <ul className="project-contents">
             <li>
             Angular e-commerce application
             </li>

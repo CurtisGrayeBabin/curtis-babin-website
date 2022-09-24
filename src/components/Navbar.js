@@ -16,8 +16,8 @@ function Navbar() {
 
   return (
     <Headroom>
-      <nav className="nav layoutNavbar">
-        <Link to="/" className="linkH1">
+      <nav className="nav layout-navbar">
+        <Link to="/" className="link-H1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="svg1"
@@ -43,13 +43,13 @@ function Navbar() {
               {
                 menuOpen ? 
 
-                  <IconContext.Provider value={{ title: "Side-menu close button", className: "sideMenu" }}>
+                  <IconContext.Provider value={{ title: "Side-menu close button", className: "side-menu" }}>
                     <VscChromeClose />
                   </IconContext.Provider>
             
                   :
 
-                  <IconContext.Provider value={{ title: "Side-menu open button", className: "sideMenu" }}>
+                  <IconContext.Provider value={{ title: "Side-menu open button", className: "side-menu" }}>
                     <GiHamburgerMenu />
                   </IconContext.Provider>
                           

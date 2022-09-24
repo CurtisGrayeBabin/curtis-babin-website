@@ -14,7 +14,7 @@
   @apply w-5 h-5 text-gray-50 bg-blue-500 rounded-full;
 }
 
-.linkH1 {
+.link-H1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,7 +22,7 @@
   transition: 0.25s ease-in-out;
 }
 
-.sideMenu {
+.side-menu {
   color: var(--text-color);
   transition: 0.25s ease-in-out;
 }
