@@ -1,9 +1,13 @@
 import * as React from "react";
 import { useState } from "react";
-import PageLayout from "../components/PageLayout";
+import { BiLinkExternal } from "react-icons/bi";
+import {IconContext} from "react-icons";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
+import PageLayout from "../components/PageLayout";
 import "../styles/global.css";
+import "../styles/layout.css";
+
 
 const IndexPage = () => {
 
@@ -48,8 +52,8 @@ const IndexPage = () => {
     {/* profile pic container */}
     <div className="homepage-content">
       
-      <div style={{ "paddingRight" : "1rem" }}>
-        <Link to="/About" className="link">About</Link>
+      <div>
+        <Link to="/About" className="link homepage-link-size">About&nbsp;<div><IconContext.Provider value={{ "className":"homepage-link-size" }}><BiLinkExternal /></IconContext.Provider></div></Link>
       </div>
 
       <div>
@@ -57,7 +61,7 @@ const IndexPage = () => {
           <tbody>
           <tr>
             <td align="center">
-              <a href="https://github.com/CurtisGrayeBabin" target="_" className="link">GitHub</a>
+              <a href="https://github.com/CurtisGrayeBabin" target="_" className="link homepage-link-size">GitHub&nbsp;<BiLinkExternal /></a>
             </td>
           </tr>
           <tr>
@@ -67,15 +71,15 @@ const IndexPage = () => {
           </tr>
           <tr>
             <td align="center">
-              <a href="https://www.linkedin.com/in/curtisbabin/" target="_" className="link">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/curtisbabin/" target="_" className="link homepage-link-size">LinkedIn&nbsp;<BiLinkExternal /></a>
             </td>
           </tr>
           </tbody>
         </table>
       </div>
 
-      <div style={{ "paddingLeft" : "1rem" }}>
-        <Link to="/Works" className="link">Works</Link>
+      <div>
+        <Link to="/Works" className="link homepage-link-size">Works&nbsp;<div><IconContext.Provider value={{ "className":"homepage-link-size" }}><BiLinkExternal /></IconContext.Provider></div></Link>
       </div>
 
     </div>
