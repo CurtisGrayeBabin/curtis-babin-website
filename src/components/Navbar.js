@@ -15,7 +15,7 @@ function Navbar() {
 
 
   return (
-    <Headroom>
+    <Headroom disableInlineStyles>
       <nav className="nav layout-navbar">
         <Link to="/" className="link-H1">
           <div>
