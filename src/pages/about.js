@@ -22,9 +22,9 @@ const IndexPage = () => {
     Please feel free to email me regarding inquiries: curtis [at] curtisbabin [dot] com
     </p>
 
-    <div style={{"display": "flex", "justifyContent": "space-evenly", "alignItems": "center", "flexWrap": "wrap", "paddingTop": "1rem"}}>
-        <StaticImage src="../images/codecademycert.jpg" alt="My CodeCademy Web Developer certification image" width={400} height={300} style={{border: "1px solid black"}} />
-        <StaticImage src="../images/udacity.jpg" alt="My Udacity Nanodegree image" width={400} height={300} style={{border: "1px solid black"}} />
+    <div className="certificate-container">
+        <StaticImage src="../images/codecademycert.jpg" alt="My Codecademy Web Development Career Path certification" width={400} height={300} />
+        <StaticImage src="../images/udacity.jpg" alt="My Udacity Full Stack JavaScript Developer Nanodegree certification" width={400} height={300} />
     </div>
 
     </PageLayout>

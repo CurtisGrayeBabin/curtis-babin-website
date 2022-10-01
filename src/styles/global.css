@@ -47,6 +47,18 @@ body {
   font-size: 3rem;
 }
 
+.certificate-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.certificate-container > * {
+  margin: 1rem 0;
+  border: 1px solid black;
+}
+
 .content-text {
   font-size: 1rem;
   line-height: 1.75;
