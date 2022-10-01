@@ -1,13 +1,14 @@
-.project-contents {
-    list-style: square;
-    padding: 1rem 2rem !important;
-    font-size: 1rem;
-    margin: 0 auto;
+.projects-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-container > * {
+    margin: 0 0 1rem 0;
 }
 
 .project-container {
     border: 1px solid var(--text-color);
-    margin-bottom: 1rem;
 }
 
 .project-title {
@@ -15,8 +16,15 @@
     justify-content: center;
     align-items: center;
     padding: 1rem 0;
-    font-size: 2rem;
+    font-size: 1.75rem;
     transition: 0.25s ease-in-out;
+}
+
+.project-contents {
+    list-style: square;
+    padding: 1rem 2rem !important;
+    font-size: 1rem;
+    margin: 0 auto;
 }
 
 .project-image {
