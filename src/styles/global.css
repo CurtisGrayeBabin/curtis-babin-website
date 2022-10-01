@@ -115,13 +115,22 @@ body {
 
 .homepage-image-wrapper {
 
-
   border-radius: 100%;
 
   box-shadow: 0px 0px .1rem var(--text-color);
   -moz-box-shadow: 0px 0px .1rem var(--text-color);
   -webkit-box-shadow: 0px 0px .1rem var(--text-color);
   -khtml-box-shadow: 0px 0px .1rem var(--text-color);
+}
+
+
+/* Want to shrink hamburger menu on smaller screens */
+/* credit: https://stackoverflow.com/questions/23026624/shrink-everything-in-a-div */
+.shrink {
+  -webkit-transform:scale(1);
+  -moz-transform:scale(1);
+  -ms-transform:scale(1);
+  transform:scale(1);
 }
 
 /* landscape requires the top link around the image be clickable beneath the navigation bar */
@@ -140,6 +149,13 @@ body {
     max-width: 30%;
   }
 
+  .shrink {
+    -webkit-transform:scale(0.5);
+    -moz-transform:scale(0.5);
+    -ms-transform:scale(0.5);
+    transform:scale(0.5);
+  }
+
 }
 
 
@@ -152,6 +168,19 @@ body {
 
   .homepage-image-wrapper {
     max-width: 60%;
+  }
+
+
+
+}
+
+@media (orientation: landscape) and (max-height: 500px){
+
+  .shrink {
+    -webkit-transform:scale(0.5);
+    -moz-transform:scale(0.5);
+    -ms-transform:scale(0.5);
+    transform:scale(0.5);
   }
 
 }
@@ -169,6 +198,7 @@ body {
     .homepage-link-size {
       font-size: 1rem;
     }
+
   
   }
 
@@ -179,6 +209,13 @@ body {
     body {
       font-size: 1rem;
     }
+
+    .shrink {
+      -webkit-transform:scale(0.5);
+      -moz-transform:scale(0.5);
+      -ms-transform:scale(0.5);
+      transform:scale(0.5);
+    }
   
   }
   
@@ -188,6 +225,8 @@ body {
     body {
       font-size: 1.75rem;
     }
+
+
   
   }
   

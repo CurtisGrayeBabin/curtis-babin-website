@@ -49,8 +49,6 @@
   transition: 0.25s ease-in-out;
 }
 
-
-
 @media (hover: hover) {
   .sideMenu:hover {
     color: var(--blue-color);
