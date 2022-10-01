@@ -18,7 +18,7 @@ function Navbar() {
     <Headroom disableInlineStyles>
       <nav className="nav layout-navbar">
         <Link to="/" className="link-H1">
-          <div>
+          <div style={{"paddingRight" : ".5rem"}}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="svg1"
@@ -34,7 +34,7 @@ function Navbar() {
               />
             </svg>
           </div>
-          &nbsp;
+
           <h1>Curtis Babin <span style={{"display":"inline-block"}}>| Web Developer</span></h1>
         </Link>
 
