@@ -6,11 +6,11 @@ import "../styles/404.css";
 
 const NotFoundPage = () => {
   return (
-    <PageLayout pageTitle="404">
-      <h1>Whoo-hoo 404 Error! Yay!</h1>
-      <h2>Yeah, this page doesn't exist. Feel free to go home (which does exist):</h2>
-      <Link to="/">
-        Go Home
+    <PageLayout pageTitle="404 Error">
+      <h1 className="error">404 Error</h1>
+      <h2>Page not found.</h2>
+      <Link to="/" className="link link-404">
+        Return home
       </Link>
     </PageLayout>
   );
