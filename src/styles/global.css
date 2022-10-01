@@ -101,12 +101,14 @@ body {
 }
 
 .homepage-image-wrapper {
+
+
   border-radius: 100%;
 
-  box-shadow: 0px 0px .2rem var(--text-color);
-  -moz-box-shadow: 0px 0px .2rem var(--text-color);
-  -webkit-box-shadow: 0px 0px .2rem var(--text-color);
-  -khtml-box-shadow: 0px 0px .2rem var(--text-color);
+  box-shadow: 0px 0px .1rem var(--text-color);
+  -moz-box-shadow: 0px 0px .1rem var(--text-color);
+  -webkit-box-shadow: 0px 0px .1rem var(--text-color);
+  -khtml-box-shadow: 0px 0px .1rem var(--text-color);
 }
 
 /* landscape requires the top link around the image be clickable beneath the navigation bar */
