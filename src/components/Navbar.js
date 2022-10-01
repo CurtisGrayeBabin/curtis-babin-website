@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import { IconContext } from "react-icons";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { VscChromeClose } from "react-icons/vsc";
 import { Link } from "gatsby";
 import SideMenu from "../components/SideMenu";
 import Headroom from "react-headroom";
 import "../styles/navbar.css";
 import "../styles/layout.css";
+import "../styles/hamburger.css";
+
 
 function Navbar() {
 
@@ -14,9 +13,23 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
 
+  const hamburgerClickHandler = () => {
+    setMenuOpen(!menuOpen);
+    // toggle hamburger menu animations
+    let menu = document.querySelector(".hamburger");
+    menu.classList.toggle("is-active");
+
+    // need to toggle aria-expanded for users with screen-readers
+    // credit: https://stackoverflow.com/questions/69888378/toggle-aria-expanded-between-true-and-false-with-javascript
+    menu.setAttribute(
+      'aria-expanded', 
+      `${!(menu.getAttribute('aria-expanded') === 'true')}`
+    );
+  }
+
   return (
     <Headroom disableInlineStyles>
-      <nav className="nav layout-navbar">
+      <nav aria-label="Page navigation bar" className="nav layout-navbar">
         <Link to="/" className="link-H1">
           <div style={{"paddingRight" : ".5rem"}}>
             <svg
@@ -39,33 +52,25 @@ function Navbar() {
         </Link>
 
 
-        {/* Side Menu */}
+        {/* Hamburger Menu Magic */}
 
-          <button onClick={() => setMenuOpen(!menuOpen)}>
-              {
-                menuOpen ? 
-
-                  <IconContext.Provider value={{ title: "Side-menu close button", className: "side-menu" }}>
-                    <VscChromeClose />
-                  </IconContext.Provider>
-            
-                  :
-
-                  <IconContext.Provider value={{ title: "Side-menu open button", className: "side-menu" }}>
-                    <GiHamburgerMenu />
-                  </IconContext.Provider>
-                          
-              }
-          </button>
-          
-
+        <button onClick={() => hamburgerClickHandler()} className="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation" aria-expanded="false">
+          <span className="hamburger-box">
+            <span className="hamburger-inner">
+            </span>
+          </span>
+        </button>  
 
       </nav>
 
-      {menuOpen && <SideMenu /> }
+      {/* May need to move this up inside prev nav tag - leaving this here for now */}
+      <div id="navigation">
+        {menuOpen && <SideMenu />}
+      </div>
 
 
     </Headroom>
+
   );
 }
 
