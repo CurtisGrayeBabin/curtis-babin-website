@@ -65,7 +65,7 @@ function Navbar() {
 
       {/* May need to move this up inside prev nav tag - leaving this here for now */}
       <div id="navigation">
-        {menuOpen && <SideMenu />}
+        <SideMenu open={menuOpen} />
       </div>
 
 
