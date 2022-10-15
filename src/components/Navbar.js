@@ -54,7 +54,7 @@ function Navbar() {
 
 
         {/* Hamburger Menu Magic */}
-        <button onClick={() => hamburgerClickHandler()} className="hamburger hamburger--squeeze shrink" type="button" aria-label="Menu" aria-controls="navigation" aria-expanded="false">
+        <button id="hamburger-menu-button" onClick={() => hamburgerClickHandler()} className="hamburger hamburger--squeeze shrink" type="button" aria-label="Menu" aria-controls="navigation" aria-expanded="false">
           <span className="hamburger-box">
             <span className="hamburger-inner">
             </span>

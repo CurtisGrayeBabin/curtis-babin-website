@@ -30,6 +30,8 @@ body {
   scroll-behavior: smooth;
 }
 
+
+
 /* global transition timing besides hamburger menu timings */
 .transition-timing {
   transition: 0.25s ease-in-out;
@@ -96,10 +98,12 @@ body {
 
   border-radius: 100%;
 
+
   box-shadow: 0px 0px 100px -33px var(--text-color);
   -moz-box-shadow: 0px 0px 100px -33px var(--text-color);
   -webkit-box-shadow: 0px 0px 100px -33px var(--text-color);
   -khtml-box-shadow: 0px 0px 100px -33px var(--text-color);
+  
   
 }
 
