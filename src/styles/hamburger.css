@@ -10,7 +10,7 @@
     display: inline-block;
     cursor: pointer;
     transition-property: opacity, filter;
-    transition-duration: 0.25s;
+    transition-duration: .1s;
     transition-timing-function: linear;
     font: inherit;
     color: inherit;

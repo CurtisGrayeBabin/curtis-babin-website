@@ -29,15 +29,16 @@
   background-image: url("../images/webb.png");
   background-size: 9rem;
 
-  border-bottom: 1px solid var(--text-color);
+  border-bottom: 2px solid var(--text-color);
 }
 
-.svg1 {
+.svg {
   margin: auto 0;
   @apply w-5 h-5 text-gray-50 bg-blue-500 rounded-full;
 }
 
-.link-H1 {
+/* my name + title as a link */
+.link-name {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,22 +46,22 @@
 }
 
 .bottom-shadow {
-  box-shadow: 4px 7px 7px -2px var(--text-color);
-  -moz-box-shadow: 4px 7px 7px -2px var(--text-color);
-  -webkit-box-shadow: 4px 7px 7px -2px var(--text-color);
-  -khtml-box-shadow: 4px 7px 7px -2px var(--text-color);
+  box-shadow: 4px 6px 7px -2px var(--black-color);
+  -moz-box-shadow: 4px 6px 7px -2px var(--black-color);
+  -webkit-box-shadow: 4px 6px 7px -2px var(--black-color);
+  -khtml-box-shadow: 4px 6px 7px -2px var(--black-color);
 }
 
 .side-menu-container {
   position: fixed;
-  transform: translateY(-1.1px);
+  transform: translateY(-2px);
 
   right: 0;
   background-image: url("../images/webb.png");
   background-size: 9rem;
 
-  border-left: 1px solid var(--text-color);
-  border-bottom: 1px solid var(--text-color);
+  border-left: 2px solid var(--text-color);
+  border-bottom: 2px solid var(--text-color);
 
 }
 

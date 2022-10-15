@@ -30,12 +30,12 @@ function Navbar() {
 
   return (
     <Headroom disableInlineStyles>
-      <nav aria-label="Page navigation bar" className="nav layout-navbar">
-        <Link to="/" className="link-H1 transition-timing">
+      <nav aria-label="Navigation bar" className="nav layout-navbar">
+        <Link to="/" className="link-name transition-timing">
           <div style={{"paddingRight" : ".5rem"}}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="svg1"
+              className="svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -54,7 +54,6 @@ function Navbar() {
 
 
         {/* Hamburger Menu Magic */}
-
         <button onClick={() => hamburgerClickHandler()} className="hamburger hamburger--squeeze shrink" type="button" aria-label="Menu" aria-controls="navigation" aria-expanded="false">
           <span className="hamburger-box">
             <span className="hamburger-inner">
@@ -68,7 +67,6 @@ function Navbar() {
       <div id="navigation">
         <SideMenu open={menuOpen} />
       </div>
-
 
     </Headroom>
 

@@ -40,8 +40,8 @@ const IndexPage = () => {
     </p>
 
   
-    <div className="click-me-div">
-      <button id="click-me-button" onClick={buttonClicked} className="transition-timing bg-transparent hover:border-transparent hover:bg-blue-500 hover:text-white text-blue-700 font-semibold py-2 px-4 border border-blue-500 rounded">
+    <div className="click-plus-div">
+      <button id="click-plus-button" onClick={buttonClicked} className="transition-timing bg-transparent hover:border-transparent hover:bg-blue-500 hover:text-white text-blue-700 font-semibold py-2 px-4 border border-blue-500 rounded">
         +1
       </button>
 

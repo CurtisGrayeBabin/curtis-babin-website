@@ -7,6 +7,7 @@
   --blue-color: rgb(59 130 246);
   --bg-color: #E5E5E5;
   --text-color: #1A1152;
+  --black-color: #181818;
 }
 
 
@@ -29,15 +30,40 @@ body {
   scroll-behavior: smooth;
 }
 
+/* global transition timing besides hamburger menu timings */
 .transition-timing {
   transition: 0.25s ease-in-out;
 }
+
 
 .link {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: .75rem .75rem;
+}
+
+
+#about-content-text {
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+/* +1 button styles */
+#click-plus-button {
+  font-size: 1rem;
+}
+
+.click-plus-div {
+  z-index: 1;
+  width: fit-content;
+  position: relative;
+  margin: .5rem 0 0 0;
+}
+
+.click-plus-div span {
+  font-size: 1rem;
+  margin: 1rem;
 }
 
 
@@ -49,29 +75,6 @@ body {
 .heading {
   text-decoration: underline;
   font-size: 3rem;
-}
-
-
-.content-text {
-  font-size: 1rem;
-  line-height: 1.75;
-}
-
-/* +1 button styles */
-#click-me-button {
-  font-size: 1rem;
-}
-
-.click-me-div {
-  z-index: 1;
-  width: fit-content;
-  position: relative;
-  margin: .5rem 0 0 0;
-}
-
-.click-me-div span {
-  font-size: 1rem;
-  margin: 1rem;
 }
 
 

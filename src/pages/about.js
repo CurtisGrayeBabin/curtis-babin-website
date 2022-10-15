@@ -15,7 +15,7 @@ const IndexPage = () => {
     
     <h1 className="heading">About</h1>
 
-    <p className="content-text">
+    <p id="about-content-text">
     I am a freelance developer; I have been a professional developer since 2017. 
     I enjoy creating websites, applications, and whatever helps others realize their goals! 
     My alma mater is the University of California, Irvine, where I earned my Bachelor of Science degree in Computer Science. 
