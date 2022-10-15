@@ -26,7 +26,7 @@ const IndexPage = () => {
 
             <ul className="project-contents">
                 <li>
-                Orange County business's website built on Gatsby (React), HTML, CSS, JSX
+                Auto detailing business's website built with Gatsby (React), HTML, CSS
                 </li>
                 <li>
                 Responsive design with custom styling
