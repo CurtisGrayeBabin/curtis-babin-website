@@ -98,12 +98,10 @@ body {
 
   border-radius: 100%;
 
-
   box-shadow: 0px 0px 100px -33px var(--text-color);
   -moz-box-shadow: 0px 0px 100px -33px var(--text-color);
   -webkit-box-shadow: 0px 0px 100px -33px var(--text-color);
   -khtml-box-shadow: 0px 0px 100px -33px var(--text-color);
-  
   
 }
 
@@ -118,62 +116,66 @@ body {
   transform:scale(1);
 }
 
+
+
+
 /* landscape requires the top link around the image be clickable beneath the navigation bar */
 
 /* for height <= 700px we want to shrink homepage content and font-size down to .75rem */
 
+
 /* landscape */
-@media (orientation: landscape) and (max-height: 300px){
+@media only screen and (orientation: landscape) {
 
-  html,
-  body {
-    font-size: .85rem;
+  @media only screen and (max-height: 500px){
+
+    html,
+    body {
+      font-size: .85rem;
+    }
+  
+    .homepage-image-wrapper {
+      max-width: 30%;
+    }
+  
+    .shrink {
+      -webkit-transform:scale(0.5);
+      -moz-transform:scale(0.5);
+      -ms-transform:scale(0.5);
+      transform:scale(0.5);
+    }
+  
   }
-
-  .homepage-image-wrapper {
-    max-width: 30%;
+  
+  
+  @media only screen and (min-height: 501px){
+  
+    .homepage-image-wrapper {
+      max-width: 50%;
+    }
+  
   }
-
-  .shrink {
-    -webkit-transform:scale(0.5);
-    -moz-transform:scale(0.5);
-    -ms-transform:scale(0.5);
-    transform:scale(0.5);
-  }
-
-}
-
-
-@media (orientation: landscape) and (min-height: 301px) and (max-height: 600px){
-
-  html,
-  body {
-    font-size: .85rem;
-  }
-
-  .homepage-image-wrapper {
-    max-width: 60%;
-  }
-
-
-
-}
-
-@media (orientation: landscape) and (max-height: 500px){
-
-  .shrink {
-    -webkit-transform:scale(0.5);
-    -moz-transform:scale(0.5);
-    -ms-transform:scale(0.5);
-    transform:scale(0.5);
+  
+  @media only screen and (min-height: 700px){
+  
+    .homepage-image-wrapper {
+      max-width: 100%;
+    }
+  
   }
 
 }
+
+
+
+
+
 
 /* not landscape */
 @media only screen and (min-height: 501px){
 
-  @media only screen and (min-width: 0px) and (max-width: 280px) {
+
+  @media only screen and (max-width: 280px) {
 
     html,
     body {
@@ -194,7 +196,7 @@ body {
   }
 
   
-  @media only screen and (min-width: 281px) and (max-width: 600px) {
+  @media only screen and (min-width: 281px) and (max-width: 600px){
 
     html,
     body {
@@ -210,27 +212,18 @@ body {
   
   }
   
-  @media only screen and (min-width: 601px) and (max-width: 768px) {
+
+  @media only screen and (min-width: 601px) {
 
     html,
     body {
       font-size: 1.75rem;
     }
 
+  }
 
   
-  }
-  
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-    html,
-    body {
-      font-size: 2rem;
-    }
-  
-  }
-  
-  @media only screen and (min-width: 1025px) {
+  @media only screen and (min-width: 769px) {
 
     html,
     body {
@@ -238,5 +231,6 @@ body {
     }
   
   }
+
 
 }
