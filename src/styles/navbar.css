@@ -56,6 +56,9 @@
 
 .bottom-shadow {
   box-shadow: 4px 7px 7px -2px var(--text-color);
+  -moz-box-shadow: 4px 7px 7px -2px var(--text-color);
+  -webkit-box-shadow: 4px 7px 7px -2px var(--text-color);
+  -khtml-box-shadow: 4px 7px 7px -2px var(--text-color);
 }
 
 
