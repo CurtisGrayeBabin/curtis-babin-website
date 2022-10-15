@@ -41,7 +41,7 @@ const IndexPage = () => {
 
   
     <div className="click-me-div">
-      <button id="click-me-button" onClick={buttonClicked} className="bg-transparent hover:border-transparent hover:bg-blue-500 hover:text-white text-blue-700 font-semibold py-2 px-4 border border-blue-500 rounded">
+      <button id="click-me-button" onClick={buttonClicked} className="transition-timing bg-transparent hover:border-transparent hover:bg-blue-500 hover:text-white text-blue-700 font-semibold py-2 px-4 border border-blue-500 rounded">
         +1
       </button>
 
@@ -53,7 +53,7 @@ const IndexPage = () => {
     <div className="homepage-content">
       
       <div>
-        <Link to="/About" className="link homepage-link-size">About&nbsp;<div><IconContext.Provider value={{ "className":"homepage-link-size" }}><BiLinkExternal /></IconContext.Provider></div></Link>
+        <Link to="/About" className="link transition-timing homepage-link-size">About&nbsp;<div><IconContext.Provider value={{ "className":"homepage-link-size" }}><BiLinkExternal /></IconContext.Provider></div></Link>
       </div>
 
       <div>
@@ -61,7 +61,7 @@ const IndexPage = () => {
           <tbody>
           <tr>
             <td align="center">
-              <a href="https://github.com/CurtisGrayeBabin" target="_" className="link homepage-link-size">GitHub&nbsp;<BiLinkExternal /></a>
+              <a href="https://github.com/CurtisGrayeBabin" target="_" className="link transition-timing homepage-link-size">GitHub&nbsp;<BiLinkExternal /></a>
             </td>
           </tr>
           <tr>
@@ -71,7 +71,7 @@ const IndexPage = () => {
           </tr>
           <tr>
             <td align="center">
-              <a href="https://www.linkedin.com/in/curtisbabin/" target="_" className="link homepage-link-size">LinkedIn&nbsp;<BiLinkExternal /></a>
+              <a href="https://www.linkedin.com/in/curtisbabin/" target="_" className="link transition-timing homepage-link-size">LinkedIn&nbsp;<BiLinkExternal /></a>
             </td>
           </tr>
           </tbody>
@@ -79,7 +79,7 @@ const IndexPage = () => {
       </div>
 
       <div>
-        <Link to="/Works" className="link homepage-link-size">Works&nbsp;<div><IconContext.Provider value={{ "className":"homepage-link-size" }}><BiLinkExternal /></IconContext.Provider></div></Link>
+        <Link to="/Works" className="link transition-timing homepage-link-size">Works&nbsp;<div><IconContext.Provider value={{ "className":"homepage-link-size" }}><BiLinkExternal /></IconContext.Provider></div></Link>
       </div>
 
     </div>

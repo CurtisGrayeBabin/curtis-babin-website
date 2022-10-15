@@ -32,6 +32,24 @@
   border-bottom: 1px solid var(--text-color);
 }
 
+.svg1 {
+  margin: auto 0;
+  @apply w-5 h-5 text-gray-50 bg-blue-500 rounded-full;
+}
+
+.link-H1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+
+.bottom-shadow {
+  box-shadow: 4px 7px 7px -2px var(--text-color);
+  -moz-box-shadow: 4px 7px 7px -2px var(--text-color);
+  -webkit-box-shadow: 4px 7px 7px -2px var(--text-color);
+  -khtml-box-shadow: 4px 7px 7px -2px var(--text-color);
+}
 
 .side-menu-container {
   position: fixed;
@@ -51,35 +69,11 @@
   align-items: center;
   font-size: 1rem;
   padding: .75rem 1rem;
-  transition: 0.25s ease-in-out;
 }
 
-.bottom-shadow {
-  box-shadow: 4px 7px 7px -2px var(--text-color);
-  -moz-box-shadow: 4px 7px 7px -2px var(--text-color);
-  -webkit-box-shadow: 4px 7px 7px -2px var(--text-color);
-  -khtml-box-shadow: 4px 7px 7px -2px var(--text-color);
-}
-
-
-
-
-.svg1 {
-  margin: auto 0;
-  @apply w-5 h-5 text-gray-50 bg-blue-500 rounded-full;
-}
-
-.link-H1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  user-select: none;
-  transition: 0.25s ease-in-out;
-}
 
 .side-menu {
   color: var(--text-color);
-  transition: 0.25s ease-in-out;
 }
 
 @media (hover: hover) {

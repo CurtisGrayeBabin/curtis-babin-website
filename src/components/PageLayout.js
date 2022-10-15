@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
 import Navbar from "./Navbar";
+import "../styles/global.css";
 import "../styles/layout.css";
 
 // format of each page (not just Home page)
@@ -31,13 +32,13 @@ const Layout = ({ pageTitle, contentDescription, canonicalLink, children }) => {
         {children}
       </main>
 
-      <footer className="footer">
+      <footer>
         <a
           href="https://www.termsfeed.com/live/3fbd4032-b635-4816-a90d-ed310ec9d468"
           target="_"
-          style={{"transition": ".25s ease-in-out"}}
+          className="transition-timing"
         >
-          Privacy Policy | {new Date().getFullYear()}
+          Privacy Policy
         </a>
       </footer>
     </>

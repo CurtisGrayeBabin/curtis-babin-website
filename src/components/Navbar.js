@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "gatsby";
 import SideMenu from "../components/SideMenu";
 import Headroom from "react-headroom";
+import "../styles/global.css";
 import "../styles/navbar.css";
 import "../styles/layout.css";
 import "../styles/hamburger.css";
@@ -30,7 +31,7 @@ function Navbar() {
   return (
     <Headroom disableInlineStyles>
       <nav aria-label="Page navigation bar" className="nav layout-navbar">
-        <Link to="/" className="link-H1">
+        <Link to="/" className="link-H1 transition-timing">
           <div style={{"paddingRight" : ".5rem"}}>
             <svg
               xmlns="http://www.w3.org/2000/svg"

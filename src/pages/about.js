@@ -2,6 +2,7 @@ import * as React from "react";
 import PageLayout from "../components/PageLayout";
 import { StaticImage } from "gatsby-plugin-image";
 import "../styles/global.css";
+import "../styles/layout.css";
 
 const IndexPage = () => {
 
