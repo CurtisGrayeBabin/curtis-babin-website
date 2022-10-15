@@ -16,7 +16,7 @@ const IndexPage = () => {
     <h1 className="heading">About</h1>
 
     <p id="about-content-text">
-    I have been both a professional & hobbyist software developer since 2017. Professionally I work with the ASP.NET MVC framework, and at home, I employ the Node.js environment with React. I enjoy creating websites and applications with a focus on the look and feel of the front end. My alma mater is the University of California, Irvine, where I earned my Bachelor of Science degree in Computer Science. Since then I have also completed two online bootcamps concerning website development with a specialization in Node.js. Please feel free to email me regarding inquiries: curtis [at] curtisbabin [dot] com
+    I have been both a professional & hobbyist web developer since 2017. Professionally I work with the ASP.NET MVC framework, and at home, I employ the Node.js environment with React. I enjoy creating websites and applications with a focus on the look and feel of the front end. My alma mater is the University of California, Irvine, where I earned my Bachelor of Science degree in Computer Science. Since then I have also completed two online bootcamps concerning website development with a specialization in Node.js. Please feel free to email me regarding inquiries: curtis [at] curtisbabin [dot] com
     </p>
 
     <div className="certificate-container">

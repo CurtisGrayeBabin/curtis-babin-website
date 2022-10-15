@@ -36,7 +36,7 @@ const IndexPage = () => {
     
     {/* Basic description that doesn't need to display */}
     <p style={{'display': 'none'}}>
-      I create single page applications & fast, SEO-friendly websites. I enjoy coding and can help you with your ideas. Contact me for more!
+      Professional & hobbyist web developer
     </p>
 
   
