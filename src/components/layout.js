@@ -27,8 +27,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div>
         <main>{children}</main>
-        <footer>
-        </footer>
+        <footer><a href="https://www.termsfeed.com/live/3fbd4032-b635-4816-a90d-ed310ec9d468" target="_">Privacy Policy</a></footer>
       </div>
     </>
   )

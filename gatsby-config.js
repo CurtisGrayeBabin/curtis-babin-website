@@ -15,6 +15,7 @@ module.exports = {
     siteUrl: `https://www.curtisbabin.com`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
