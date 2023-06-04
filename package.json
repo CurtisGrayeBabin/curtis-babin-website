@@ -1,6 +1,6 @@
 {
   "name": "curtis-babin-website",
-  "private": true,
+  "private": false,
   "description": "The personal website of Curtis Babin.",
   "version": "2.0.0",
   "author": "Curtis Babin",
