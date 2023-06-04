@@ -25,10 +25,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div>
+      <div className="content-container">
         <main>{children}</main>
-        <footer><a href="https://www.termsfeed.com/live/3fbd4032-b635-4816-a90d-ed310ec9d468" target="_">Privacy Policy</a></footer>
       </div>
+      <footer><a href="https://www.termsfeed.com/live/3fbd4032-b635-4816-a90d-ed310ec9d468" target="_">Privacy Policy</a></footer>
     </>
   )
 }

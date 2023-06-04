@@ -17,8 +17,10 @@ const links = [
 
 const IndexPage = () => (
   <Layout>
-    <h1>Curtis Babin</h1>
-    <h2>Web Developer.</h2>
+    <header>
+      <h1>Curtis Babin</h1>
+      <h2>Web Developer.</h2>
+    </header>
     <ul>
       {
         links.map(o => 
