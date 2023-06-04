@@ -1,7 +1,7 @@
 {
   "name": "curtis-babin-website",
   "private": true,
-  "description": "The personal website of Curtis Babin (web developer)",
+  "description": "The personal website of Curtis Babin.",
   "version": "2.0.0",
   "author": "Curtis Babin",
   "dependencies": {
@@ -14,6 +14,7 @@
     "gatsby-transformer-sharp": "^5.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.9.0",
     "sass": "^1.62.0"
   },
   "devDependencies": {
