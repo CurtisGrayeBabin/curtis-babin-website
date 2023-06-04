@@ -1,6 +1,8 @@
 import * as React from "react"
 import { Link } from "gatsby"
 //import { StaticImage } from "gatsby-plugin-image"
+import { BiLinkExternal } from "react-icons/bi"
+import CenterWrapper from "../components/centerWrapper"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -26,7 +28,7 @@ const IndexPage = () => (
     <ul>
       {
         links.map(o => 
-          <li key={o.text}>{(o.local === 1 ? <Link to={o.url}>{o.text}</Link> : <a href={o.url} target="_blank" rel="noreferrer">{o.text}</a>)}</li>
+          <li key={o.text}>{(o.local === 1 ? <Link to={o.url}>{o.text}</Link> : <a href={o.url} target="_blank" rel="noreferrer">{o.text}</a>)} <CenterWrapper children={<BiLinkExternal />} /></li>
         )
       }
     </ul>
