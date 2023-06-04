@@ -18,7 +18,9 @@ const links = [
 const IndexPage = () => (
   <Layout>
     <header>
-      <h1>Curtis Babin</h1>
+      <h1>
+        Curtis <span style={{"display": "block"}}>Babin</span>
+      </h1>
       <h2>Web Developer.</h2>
     </header>
     <ul>
